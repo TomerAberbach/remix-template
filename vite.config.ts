@@ -14,6 +14,6 @@ export default defineConfig({
       ignoredRouteFiles: [`**/.*`],
     }),
     tsconfigPaths(),
-    visualizer(),
+    visualizer({ emitFile: true }),
   ],
 })
