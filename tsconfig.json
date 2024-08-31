@@ -1,6 +1,6 @@
 {
   "extends": "tomer/tsconfig",
-  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["**/*.ts", "**/*.tsx"],
   "compilerOptions": {
     "types": ["@remix-run/node", "vite/client"],
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
