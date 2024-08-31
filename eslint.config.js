@@ -9,5 +9,4 @@ export default [
       'unicorn/filename-case': `off`,
     },
   },
-  { ignores: [`remix.env.d.ts`] },
 ]
